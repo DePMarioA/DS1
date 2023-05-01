@@ -16,7 +16,7 @@ public class ListTester
         ListTester tester = new ListTester();
         
         // Create an instance of your list to test here!
-        SimplifiedList listUnderTest = new EmptyList(); //replace with 'new setList();'
+        SimplifiedList listUnderTest = new EmptyList();
         
         tester.testHappyPaths(listUnderTest);
         tester.testEmpty(listUnderTest);
